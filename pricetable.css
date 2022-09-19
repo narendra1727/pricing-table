@@ -1,0 +1,75 @@
+.flex1{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:3vw;
+    margin-top: 5vh;
+}
+
+.card-body{
+    text-align: center;
+    height:28vh;
+}
+
+.body{
+    background-color: blue;
+}
+
+ul{
+    list-style:none;
+    text-align: left;
+}
+
+.cost{
+    font-size:50px;
+}
+
+hr{
+    background-color:black;
+}
+
+.fas{
+    size:50px;
+}
+
+.opaci1{
+    opacity:0.5;
+    
+}
+
+.btn1{
+    width:230px;
+    height:10vh;
+    border-radius: 5vh;
+    border : 1px solid blue;
+    opacity: 0.5;
+}
+
+button:hover {
+    opacity: 1;
+    
+}
+
+.card:hover{
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+}
+
+@media screen and ( max-width: 900px ){
+    .flex1{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap:3vw;
+        margin-top: 5vh;
+    }
+    
+    .card-body{
+        text-align: center;
+        height:200px;
+    }
+
+}
